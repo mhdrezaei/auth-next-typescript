@@ -38,7 +38,12 @@ export default function Home() {
               <div className="text-sm mb-2 font-bold">
                 {session?.user?.email}
               </div>
-              
+              <div className="mb-2 mt-10">
+                You logged in using &nbsp;
+                <span className="capitalize bg-blue-400 text-white px-4 py-1 ml-2 font-bold italix text-lg rounded-md">
+                  {session?.user?.provider}
+                </span>
+              </div>
             </div>
             <div className="mt-10 py-10 border-t text-center">
               <div className="flex flex-wrap justify-center">
