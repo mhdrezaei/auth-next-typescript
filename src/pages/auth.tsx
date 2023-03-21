@@ -1,9 +1,11 @@
-import React from 'react'
 
-type Props = {}
 
-const auth = (props: Props) => {
+
+
+const Auth = () => {
   return (
     <div>auth</div>
   )
 }
+
+export default Auth
